@@ -14,7 +14,7 @@ public class Options {
 
         // first test (Login)
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));//
 
         driver.get("http://a.testaddressbook.com/sign_in");
         driver.findElement(By.id("session_email")).sendKeys("stasmotorin199407@gmail.com");
